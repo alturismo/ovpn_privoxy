@@ -1,6 +1,6 @@
 # ovpn_privoxy
 
-## openvpn with privoxy in docker with cron
+## openvpn with privoxy in docker
 
 after docker start check your config folder, add your *.ovpn file(s) and edit logindata.conf
 
