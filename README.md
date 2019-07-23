@@ -34,6 +34,10 @@ LOCAL_NET - CIDR mask of the local IP addresses which will acess the proxy \
 OPENVPN_FILE - the .ovpn file to use for your connection \
 TZ - Timezone, not relevant for function
 
-## logindate.conf
+## logindata.conf
 
-replace username and password with your credentials
+replace username and password with your credentials or create your own file ahead /config/logindata.conf
+  ```
+  <username>
+  <password>
+  ```
