@@ -20,7 +20,7 @@ docker run -d \
   -p 8118:8080/tcp \
   -v /mnt/user/appdata/OpenVPN/:/config:rw \
   --cap-add=NET_ADMIN --dns=8.8.8.8 \
-  alturismo/ovpn_privoxy'
+  alturismo/ovpn_privoxy
 ```
 
 tested here with hide.me as provider, modified ovpn included, had to add 2 lines
