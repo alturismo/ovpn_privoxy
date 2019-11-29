@@ -1,7 +1,7 @@
 FROM alpine:latest
 RUN apk update
 RUN apk upgrade
-RUN apk add --no-cache privoxy openvpn runit
+RUN apk add --no-cache ca-certificates privoxy openvpn runit
 
 MAINTAINER alturismo alturismo@gmail.com
 
