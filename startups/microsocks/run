@@ -5,5 +5,6 @@
 sleep 15
 
 # start
-nohup microsocks &
 echo "microsocks started"
+
+microsocks
