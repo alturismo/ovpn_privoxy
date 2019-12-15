@@ -11,7 +11,7 @@ RUN tar -xzvf v1.0.1.tar.gz \
     && make \
     && make install \
 	&& apk del make gcc musl-dev \
-	&& rm -r microsocks-1.0.1/ \
+	&& rm -r microsocks-1.0.1 \
 	&& rm v1.0.1.tar.gz
 
 MAINTAINER alturismo alturismo@gmail.com
