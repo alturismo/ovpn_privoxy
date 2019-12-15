@@ -1,0 +1,9 @@
+#!/bin/sh
+
+### Start microsocks
+
+sleep 15
+
+# start
+nohup microsocks &
+echo "microsocks started"
