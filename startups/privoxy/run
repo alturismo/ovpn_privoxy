@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ ${HIDEME_PRIVOXY} == "off" ]; then
+if [ ${OVPN_PRIVOXY} == "off" ]; then
 
 echo "privoxy disabled"
 
