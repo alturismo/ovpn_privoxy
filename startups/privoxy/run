@@ -1,13 +1,18 @@
 #!/bin/sh
 
+if [ ${HIDEME_PRIVOXY} == "off" ]; then
+
+echo "privoxy disabled"
+
+sleep infinity
+
+else
+
 ### Start Privoxy
 
-sleep 10
-
-# so return traffic that went through VPN works
-
-gw=$(ip route | awk '/default/ {print $3}')
-ip route add to ${LOCAL_NET} via $gw dev eth0
+sleep 7
 
 # start
 privoxy --no-daemon
+
+fi
