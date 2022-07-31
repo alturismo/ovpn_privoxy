@@ -2,7 +2,7 @@
 
 ### Start microsocks
 
-if [ ${HIDEME_SOCKS} == "off" ]; then
+if [ ${OVPN_SOCKS} == "off" ]; then
 
 echo "microsocks disabled"
 
