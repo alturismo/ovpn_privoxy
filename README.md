@@ -32,6 +32,10 @@ script-security 2
 
 LOCAL_NET - CIDR mask of the local IP addresses which will acess the proxy \
 OPENVPN_FILE - the .ovpn file to use for your connection \
+OVPN_SOCKS - set to ```off``` to disable \
+OVPN_PRIVOXY - set to ```off``` to disable \
+ONLINECHECK - set to ```off``` to disable \
+ONLINECHECK_IP - default ```8.8.4.4``` set own to change \
 TZ - Timezone, not relevant for function
 
 ## logindata.conf
