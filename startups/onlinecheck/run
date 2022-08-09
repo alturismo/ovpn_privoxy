@@ -16,7 +16,7 @@ else
 		if ping -w 10 -c1 ${ONLINECHECK_IP} &> /dev/null; then
 			echo "ping ok"; else
 				echo "we seem to be offline, restarting openvpn"
-				killall hide.client.linux
+				killall openvpn
 			fi
 	done
 fi
