@@ -36,6 +36,7 @@ OVPN_SOCKS - set to ```off``` to disable \
 OVPN_PRIVOXY - set to ```off``` to disable \
 ONLINECHECK - set to ```off``` to disable \
 ONLINECHECK_IP - default ```8.8.4.4``` set own to change \
+KILLALL - set to ```on``` restart docker instead reconnect \
 TZ - Timezone, not relevant for function
 
 ## logindata.conf
@@ -45,5 +46,3 @@ replace username and password with your credentials or create your own file ahea
   <username>
   <password>
   ```
-
-thanks to ovpn project
